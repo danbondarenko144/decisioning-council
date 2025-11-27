@@ -59,9 +59,9 @@ council_proxy = Agent(
         -"What is the best brand of sport's watch"?
         In this case repeat what you can do.
 
-        The decisioning_orchestrator tool will return a preferred course of action based on a vote done by 4 councillors: red, blue, green, and yellow.
+        The decisioning_orchestrator tool will return a preferred course of action based on a ranking done by 4 councillors: red, blue, green, and yellow.
         Each councillor has a distinct personality and looks at the situation from a different angle.
-        There is also an arbiter that looks at the votes and makes sure it is ethical as well as breaking ties before returning the final result.
+        There is also an arbiter that looks at the rankings and makes sure it is ethical as well as breaking ties before returning the final result.
 
         Your goal is to summarize in one paragraph what the arbiter decided to the user.
     """,
