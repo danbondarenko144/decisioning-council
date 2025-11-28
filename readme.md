@@ -44,9 +44,10 @@ The framwork then responds to the user with a summary of the analysis as well as
 │       └── agent.py    
 ├── tests/                      
 │   └──example_queries.txt     # Some sample text queries
-└── README.md                   # Project documentation
+└── README.md                  # Project documentation
 ```
 
 ## ⚙️ Setup
 1. Rename .env.template to .env and update the GOOGLE_API_KEY
 2. Run pip install google-adk to install the google ADK
+3. You can run the project using adk web
