@@ -16,7 +16,7 @@ The councillors submit their scores to a final Arbiter Agent that counts the sco
 The framwork then responds to the user with a summary of the analysis as well as which action it recommends to take.
 
 ## 🌳 Repository Structure
-.
+```bash
 ├── .env                        # Environment variables 
 ├── decisioning_council/        # Main package for your agent logic
 │   ├── __init__.py
@@ -45,6 +45,7 @@ The framwork then responds to the user with a summary of the analysis as well as
 ├── tests/                      
 │   └──example_queries.txt     # Some sample text queries
 └── README.md                   # Project documentation
+```
 
 ## ⚙️ Setup
 1. Rename .env.template to .env and update the GOOGLE_API_KEY
