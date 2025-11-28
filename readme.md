@@ -21,7 +21,7 @@ The framwork then responds to the user with a summary of the analysis as well as
 ├── decisioning_council/        # Main package for your agent logic
 │   ├── __init__.py
 │   └── agent.py    
-|── sub_agents
+├── sub_agents
 │   ├── arbiter
 │   │   ├── __init__.py
 │   │   ├── prompt.py
